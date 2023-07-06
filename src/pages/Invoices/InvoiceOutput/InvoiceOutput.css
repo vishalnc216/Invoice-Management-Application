@@ -1,0 +1,111 @@
+.invoice-output{
+  width:100%;
+ 
+}
+.invoice-list-container{
+  width:25vw;
+  background-color: blue;
+}
+.invoice-display{
+   margin-top: 3vw;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   padding: 1.5vw;
+   margin-bottom: 5vw;}
+.invoice-options{
+  padding: 1.5vw;
+}
+.invoice-options{
+  margin-right: 0;
+  display: flex;
+  gap: 2vw;
+}
+.d1{
+  display: flex;
+}
+.d1-1{
+  
+}
+.d1-1-text{
+  font-size: 14px;
+}
+.d1-2{
+  display:flex;
+  gap:6vw;
+  margin-top: 2vw;
+}
+.d1 {
+  display: flex;
+  justify-content: space-between;
+  width: 52vw;
+}
+.due-table{
+  text-align: right;
+  width: fit-content;
+}
+#td{
+  font-size: 14px;
+}
+.due-table{
+  margin-top: 1.5vw;
+  width: 100%;
+}
+.d2{
+  display: flex;
+  justify-content: space-between;
+  width: 52vw;
+}
+.d2{
+  font-size: 14px;
+}
+.d2-2{
+width: 40%;
+}
+.d2-1{
+width: 40%;
+}
+strong{
+  color: rgb(156, 143, 230);
+}
+.d3{
+
+}
+.d3-table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+
+}
+
+.tbody{
+  padding: 1vw;
+  font-size: 5px;
+}
+.line-item-row-body{
+  padding: 0.5vw;
+  font-size: 13px;
+  border: 1px solid #ddd; ;
+  border-bottom: 0px;
+}
+.thead{
+  background-color: rgb(90, 76, 165);
+  color: white;
+  font-weight: 600 !important;
+  vertical-align: baseline;
+}
+.th{
+  padding: 0.5vw;
+  font-weight: 600 !important;
+}
+.d4-table{
+    width: 100%;
+    text-align: right;
+    font-weight: 600;
+}
+.d5>h4{
+  font-size: 15px;
+}
+.d5>div{
+  font-size: 13px;
+}

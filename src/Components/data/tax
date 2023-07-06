@@ -1,0 +1,7 @@
+export const tax = [
+  { id: 1, name: "Service Tax (14%)" },
+  {
+    id: 2,
+    name: "Service Tax (Krishi Kalyan Cess, Swachh Bharat Cess, Service Tax) (15%)",
+  },
+];

@@ -1,0 +1,95 @@
+.business {
+  padding: 3vw;
+}
+.business-main-1 {
+  display: flex;
+  align-items: center;
+  width: 94vw;
+  justify-content: space-evenly;
+}
+.main-1-profile,
+.main-1-create,
+.main-1-amount {
+  width: 20vw;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.main-1-profile:hover,
+.main-1-create:hover,
+.main-1-amount:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.main-2-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2vw;
+}
+.main-2-cart-bill {
+  width: 90vw;
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: row;
+  height: 7vh;
+}
+.cart-bill-sr {
+  width: 10vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding-bottom: 10px;
+}
+.cart-bill-name {
+  width: 40vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding-bottom: 10px;
+}
+.cart-bill-amount {
+  width: 20vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding-bottom: 10px;
+}
+.cart-bill-bill {
+  width: 20vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: rgb(88, 82, 153);
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.cart-bill-bill:hover {
+  color: rgb(0, 0, 0);
+}
+.main-2-name-show {
+  border: none;
+  padding: 15px;
+  background-color: rgb(239, 238, 255);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.main-2-name-show:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.show-bill {
+  margin-top: 20px;
+}
+.main-1-amount-no {
+  font-size: 70px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(rgb(88, 82, 153), rgb(204, 200, 252));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

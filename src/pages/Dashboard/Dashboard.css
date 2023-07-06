@@ -1,0 +1,125 @@
+.dashboard-pre{
+    width: 100%;
+    margin: 7px 7px 0 0  ;
+    
+}
+.dashboard{
+    width: 100%;
+    /* margin-top: 6vh; */
+    /* margin: 6vh 2vw 0; */
+    display: flex;
+    flex-direction: column;
+    font-family: "Courier New", Courier, monospace;
+    overflow: hidden;
+    height: 90vh;
+    margin-top: 1vh;
+}
+.dashboard-main{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+}
+.dashboard-main-1,.dashboard-main-2,.dashboard-main-3,.dashboard-main-4 {
+    width: 20%;
+    border-bottom: 2px solid #dc2626;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.dashboard-main-2{
+    border-bottom: 2px solid #CA8A04;
+}
+.dashboard-main-3{
+    border-bottom: 2px solid #0284c7;
+}
+.dashboard-main-4{
+    border-bottom: 2px solid #16a34a;
+}
+img.dashboard-main-1-img {
+    width: 40px;
+}
+span.dashboard-main-1-amm {
+    font-size: 30px;
+    margin-top: 15px;
+}
+.dashboard-main-1-name{
+    font-size: 18px;
+    color: rgb(69, 69, 69);
+    margin-top: 10px;
+}
+.dashboard-graph-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+span.dashboard-graph-text1 {
+    font-size: 20px;
+    font-family: revert;
+}
+span.dashboard-graph-text2 {
+    font-size: 16px;
+    font-family: revert;
+    color: rgb(59, 59, 59);
+}
+
+.dashboard-graph {
+    margin: 15px;
+    height: 100%;
+   padding: 15px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   background-color: #f8fdff;
+   border-radius: 20px;
+   
+}
+
+
+@media (max-width:767px) {
+    .dashboard-pre {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .dashboard-main {
+        display: grid;
+        gap: 20px;
+        padding: 10px;
+        grid: 50% /auto auto;
+    }
+    .dashboard-main-1,.dashboard-main-2,.dashboard-main-3,.dashboard-main-4 {
+        width: 74%;
+        border-bottom: 2px solid #dc2626;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    }
+    .dashboard-main-2{
+        border-bottom: 2px solid #CA8A04;
+    }
+    .dashboard-main-3{
+        border-bottom: 2px solid #0284c7;
+    }
+    .dashboard-main-4{
+        border-bottom: 2px solid #16a34a;
+    }
+    img.dashboard-main-1-img {
+        width: 30px;
+    }
+    span.dashboard-main-1-amm {
+        font-size: 25px;
+        margin-top: 15px;
+        font-weight: 500;
+        color: rgb(44, 44, 44);
+    }
+    .dashboard-main-1-name {
+        font-size: 16px;
+        color: rgb(107, 107, 107);
+        margin-top: 10px;
+    }
+}

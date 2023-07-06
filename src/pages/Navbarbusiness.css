@@ -1,0 +1,25 @@
+.navbarbusiness {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5vw 1vw;
+  background-color: aliceblue;
+}
+.navbarbusiness-img {
+  display: flex;
+  align-items: center;
+}
+.navbarbusiness-logo {
+  width: 50px;
+  margin-right: 20px;
+}
+.navbarbusiness-name {
+  font-size: larger;
+  font-weight: bolder;
+}
+.navbarbusiness-content {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}

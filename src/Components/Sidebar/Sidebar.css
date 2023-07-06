@@ -1,0 +1,124 @@
+.sidebar {
+  width: 14vw;
+  /* background-color:#6374ae; */
+  background-color:white;
+  color: #3540A5;
+  margin: 7px 0 7px 7px;
+  padding: 2vh 2vw;
+  height: 94vh;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.sidebar-menu-1.selected  {
+  /* Styling for the selected field */
+
+/* border-bottom: 2px solid #333333; */
+    opacity: 1;
+    padding-bottom: 10px;
+    filter: none;
+    transform: scale(1.1);
+      transition: transform 0.3s ease;
+
+}
+.sidebar-first {
+  height: 10vh;
+  padding-top: 4vh;
+}
+.sidebar-name {
+  font-size: 22px;
+
+  font-weight: 900;
+}
+
+.sidebar-menu-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+    transition: all 0.3s ease;
+      opacity: 0.6;
+      color: black;
+}
+/* .sidebar-menu-1:hover {
+  opacity: 100%;
+} */
+.sidebar-menu-img {
+  width: 22px;
+  /* padding: 4px; */
+  /* background-color: rgb(0, 0, 0); */
+
+
+}
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 0.5vh 0.5vw;
+}
+.sidebar-menu-name {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000853;
+  font-family: revert;
+}
+.sidebar-second {
+  margin-top: 30px;
+}
+.sidebar-third {
+display: flex;
+  align-items: center;
+  margin: 10px 0 15px;
+  padding: 0.5vh 0.5vw;
+  flex-direction: row;
+  gap: 20px;
+}
+.sidebar-logout{
+  display: flex;
+  align-items: center;
+ margin-bottom: 10px;
+ flex-direction: row;
+ gap: 20px;
+}
+.sidebar-third-1 {
+  /* padding: 5px;
+  background-color: white;
+ width: 33px; */
+  border-radius: 50%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-third-logo {
+  width: 27px;
+}
+.sidebar-third-2 {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-third-name {
+  font-size: 22px;
+  color: #27272A;
+  font-weight: 700;
+}
+.sidebar-third-log {
+  font-size: 12px;
+
+
+}
+
+
+@media (max-width: 767px) {
+  /* .sidebar{display: none;} */
+  .sidebar{
+    width: 79%;
+    padding: 3vh 9vw;
+    height: 95%;
+    margin: 0;
+    border-radius: 0;
+  }
+}

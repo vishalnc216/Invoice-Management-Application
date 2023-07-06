@@ -1,0 +1,15 @@
+.Profilepage{
+    margin:4vw;
+}
+.logo{
+    margin-top: 35px;
+
+}
+.profile_input{
+    display: flex;
+   
+    /* margin-top: 2vh;
+    padding: 3vh 0vw; */
+   margin-top:2.7vw;
+    justify-content: space-around;
+}

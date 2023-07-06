@@ -1,0 +1,134 @@
+
+* {
+  margin: 0;
+  font-family: sans-serif;
+
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.App {
+  font-family: sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  color: #333;
+  cursor: default;
+}
+/* label[data-shrink=false]+.MuiInputBase-formControl .css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 30px;
+} */
+.dropdown .arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  content: " ";
+  display: block;
+  height: 0;
+  margin-top: 0.3rem;
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  width: 0;
+}
+
+.dropdown .arrow.open {
+  border-color: transparent transparent #999;
+  border-width: 0 5px 5px;
+}
+
+.dropdown .selected-value input {
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 8px 52px 8px 10px;
+  transition: all 200ms ease;
+  width: 100%;
+}
+
+.dropdown .options {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-top: -1px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
+}
+
+.dropdown .options.open {
+  display: block;
+}
+
+.dropdown .option {
+  box-sizing: border-box;
+  color: rgba(51, 51, 51, 0.8);
+  cursor: pointer;
+  display: block;
+  padding: 8px 10px;
+}
+
+.dropdown .option.selected,
+.dropdown .option:hover {
+  background-color: #f2f9fc;
+  color: #333;
+}
+.button-container{
+
+  padding: 20px 0 10px;
+  border-top: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  position: absolute;
+  height: 4vh;
+  bottom: 0;
+  width: 75%;
+  z-index: 100;
+  background-color: white;
+}
+.input-submit {
+  background-color: #3540a5;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 6px;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  /* margin-top: 30px; */
+}
+.input-cancel{
+  background-color: #ececec;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 6px;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  /* margin-top: 30px; */
+}
+
+@media (max-width: 768px){
+  .body-sidebar{
+    display: none;
+  }
+}

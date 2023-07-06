@@ -1,0 +1,19 @@
+.addbill {
+  text-align: center;
+  box-shadow: 2px 2px 5px #acacac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 99%;
+  height: 100px;
+  border-radius: 12px;
+  margin-top: 24px;
+  background-color: #eeeeee;
+  margin-left: 0.5%;
+}
+.addbtn {
+  font-size: 22px;
+  font-family: sans-serif;
+  color: #231988;
+}

@@ -1,0 +1,110 @@
+.itemsedit {
+  width: 100%;
+  margin-top: 10vh;
+  padding: 3vh 5vw;
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+}
+.itemsedit-name {
+  margin-bottom: 2vh;
+  font-size: 25px;
+  font-weight: 700;
+  color: #3540a5;
+}
+.itemedit-1 {
+  display: flex;
+  gap: 10%;
+  margin-top: 2vh;
+  padding: 3vh 0vw;
+}
+.edit-name {
+  width: 45%;
+}
+.edit-description {
+  width: 45%;
+}
+.itemedit-2 {
+  display: flex;
+  gap: 5%;
+  margin-top: 5px;
+  padding: 0vh 0vw 3vh;
+}
+.edit-quan {
+  width: 30%;
+}
+.edit-unit{
+  text-align: center;
+  width: 30%;
+}
+.edit-hsn{
+  padding: 3vh 0vw;
+}
+.edit-hsn-main {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.itemedit-button {
+  padding: 3vh 0vw;
+}
+.itemedit-save {
+  background-color: #3540a5;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 6px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin-right: 15px;
+}
+.itemedit-cancel {
+  background-color: #dddddd;
+  color: rgb(74, 74, 74);
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 6px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+
+.iteminput-3 {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.iteminput-3-name{
+  font-size: 18px;
+  margin: 3vh 0 2vh;
+  font-weight: 400;
+}
+.iteminput-3-sales-1 {
+  margin: 3vh 0;
+  display: flex;
+  gap: 25px;
+
+
+}
+.iteminput-3-sales {
+  width: 50%;
+}
+.edit-sales-3{
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .iteminput-3 {
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .iteminput-3-sales {
+    width: 100%;
+  }
+}

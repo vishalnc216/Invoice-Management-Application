@@ -1,0 +1,19 @@
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    background-color: #f0f0f0;
+    z-index: 9999;
+    /* Add other styles as needed */
+  }
+  
+  .menu-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-option:hover {
+    background-color: #ddd;
+  }

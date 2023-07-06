@@ -1,0 +1,59 @@
+.form-main{
+    display: flex;
+      width: 100vw;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top:10vh;
+  }
+  .form{
+    width: 25vw;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      padding: 3vw 2vw;
+      border-radius: 9px;
+      display: flex;
+      flex-direction: column;
+  }
+  .signin{
+    font-size: 27px;
+      /* background: #F3EFF2; */
+      width: 23vw;
+      /* border-radius: 8px; */
+      /* padding-top: 12px; */
+      /* padding-bottom: 12px; */
+      color: #3540A5;
+  }
+  .userid-div{
+    margin-top: 20px;
+      margin-left: 1vw;
+  }
+  .userid{
+    font-size: 15px;
+      opacity: 0.6;
+      margin-bottom: 10px;
+  }
+  .input{
+    
+      border: none;
+      background: #F3EFF2;
+      width: 23vw;
+      /* padding: 12px; */
+      border-radius: 8px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+  
+  }
+  .btn{
+    width: 23vw;
+      text-align: center;
+      margin-left: 1vw;
+      padding-top: 12px;
+      background: #3540A5;
+      color: white;
+      border-radius: 8px;
+      margin-top: 30px;
+      padding-bottom: 12px;
+  }
+  .btm-text{
+    text-align: center;
+      margin-top: 50px;
+  }
